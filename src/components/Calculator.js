@@ -1,4 +1,3 @@
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import Row from './Row';
 import '../styles/calculator.css';
