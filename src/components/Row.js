@@ -16,16 +16,13 @@ class Row extends React.Component {
 }
 
 Row.defaultProps = {
-  first: '',
-  second: '',
-  third: '',
   fourth: '',
 };
 
 Row.propTypes = {
-  first: PropTypes.string,
-  second: PropTypes.string,
-  third: PropTypes.string,
+  first: PropTypes.string.isRequired,
+  second: PropTypes.string.isRequired,
+  third: PropTypes.string.isRequired,
   fourth: PropTypes.string,
 };
 
