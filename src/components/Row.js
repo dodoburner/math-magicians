@@ -1,18 +1,14 @@
-/* eslint-disable */
 import React from 'react';
+import '../styles/calculator.css';
 
 class Row extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <div className="row">
-        <div>{this.props.first}</div>
-        <div>{this.props.second}</div>
-        <div>{this.props.third}</div>
-        {this.props.fourth ? <div>{this.props.fourth}</div> : null}
+        <div className="button">{this.props.first}</div>
+        <div className="button">{this.props.second}</div>
+        <div className="button">{this.props.third}</div>
+        {this.props.fourth ? <div className="button">{this.props.fourth}</div> : null}
       </div>
     );
   }
