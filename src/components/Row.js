@@ -4,12 +4,16 @@ import '../styles/calculator.css';
 
 class Row extends React.Component {
   render() {
+    const {
+      first, second, third, fourth,
+    } = this.props;
+
     return (
       <div className="row">
-        <div className="button">{this.props.first}</div>
-        <div className="button">{this.props.second}</div>
-        <div className="button">{this.props.third}</div>
-        {this.props.fourth ? <div className="button">{this.props.fourth}</div> : null}
+        <div className="button">{first}</div>
+        <div className="button">{second}</div>
+        <div className="button">{third}</div>
+        {fourth ? <div className="button">{fourth}</div> : null}
       </div>
     );
   }
