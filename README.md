@@ -6,9 +6,7 @@
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JavaScript, React, JSX
 
 ## Live Demo (if available)
 
@@ -17,33 +15,28 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- A code editor; like VS Code or Atom
+- A GitHub account
+- Node.js installed
+- Optional: GitHub Desktop
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Click on the green button that says code and copy the SSH key or click on open with GitHub Desktop if you have it installed
+- Open your terminal and navigate to the directory where you want to clone the repository
+- Run the command git clone <SSH key>
+- Open it in your terminal and run npm install to install all the necessary packages
+- Run npm start to open it in your browser
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@dodoburner](https://github.com/dodoburner)
+- Twitter: [@DorianUrem](https://twitter.com/DorianUrem)
+- LinkedIn: [Dorian Urem](https://www.linkedin.com/in/dorian-urem-252baa237/)
 
 
 ## 🤝 Contributing
@@ -58,9 +51,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank you Microverse for providing me with this project
+- Hat tip to the official React documentation, Scrimba's free React course and Frontend Masters intro to React for the knowledge 
 
 ## 📝 License
 
