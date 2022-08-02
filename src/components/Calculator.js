@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import React from "react";
 import Row from "./Row";
 import calculate from "../logic/calculate";
@@ -19,12 +17,11 @@ class Calculator extends React.Component {
   }
 
   componentDidUpdate() {
-    console.log(this.state.dataObj);
     this.updateScreen();
   }
 
   updateDataObj(event) {
-    let value = event.target.textContent;
+    const value = event.target.textContent;
     this.setState((prevState) => ({
       dataObj: { ...calculate(prevState.dataObj, value) },
     }));
@@ -32,7 +29,7 @@ class Calculator extends React.Component {
 
   updateScreen() {
     const screen = document.querySelector(".screen");
-    const dataObj = this.state.dataObj;
+    const { dataObj } = this.state;
     if (dataObj.next && !dataObj.total) {
       screen.textContent = dataObj.next;
     } else if (!dataObj.next && dataObj.total) {
@@ -43,20 +40,19 @@ class Calculator extends React.Component {
       screen.innerHTML = "";
     } else {
       screen.innerHTML = `
-        ${dataObj.total}
-         <br>
-        ${
-          dataObj.operation
-            ? dataObj.operation + " " + dataObj.next
-            : dataObj.next
-        }`;
+        ${dataObj.total} <br>
+         ${
+           dataObj.operation
+             ? `${dataObj.operation} ${dataObj.next}`
+             : dataObj.next
+         }`;
     }
   }
 
   render() {
     return (
       <div id="calculator">
-        <div className="screen"></div>
+        <div className="screen" />
         <div className="buttons">
           <Row
             updateDataObj={this.updateDataObj}
