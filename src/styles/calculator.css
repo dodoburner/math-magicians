@@ -37,6 +37,7 @@ select {
   font-size: 28px;
   padding-right: 10px;
   color: white;
+  text-align: end;
 }
 
 .row {
