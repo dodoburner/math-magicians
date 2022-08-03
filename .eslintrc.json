@@ -20,7 +20,8 @@
     "import/no-unresolved": "off",
     "no-shadow": "off",
     "quotes": 0,
-    "indent": 0
+    "indent": 0,
+    "react/jsx-no-bind": 0
   },
   "ignorePatterns": [
     "dist/",
