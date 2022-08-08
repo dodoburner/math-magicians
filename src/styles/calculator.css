@@ -38,6 +38,7 @@ select {
   align-items: center;
   justify-content: flex-end;
   font-size: 28px;
+  font-weight: 600;
   padding-right: 10px;
   color: #1F4690;
   text-align: end;
@@ -62,6 +63,7 @@ select {
   cursor: pointer;
   border: 1px solid gray;
   font-size: 18px;
+  font-weight: 600;
   border-radius: 4px;
 }
 
