@@ -1,13 +1,12 @@
 import React from 'react';
-// import Calculator from './components/Calculator';
-import Calculator from './components/Calculator';
+import Home from './components/Home';
 import './styles/App.css';
 
 class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
-        <Calculator />
+        <Home />
       </div>
     );
   }

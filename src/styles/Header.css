@@ -1,0 +1,18 @@
+.header-title {
+  font-size: 70px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+}
+
+li {
+  cursor: pointer;
+}

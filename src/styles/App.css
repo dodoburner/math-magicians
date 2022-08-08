@@ -1,3 +1,26 @@
-h1 {
-  color: red;
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../images/math-bg.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
