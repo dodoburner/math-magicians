@@ -4,7 +4,6 @@ body {
 }
 
 body {
-  padding: 5px;
   font-family: 'Open Sans', sans-serif;
   background-image: url(../images/math-bg.jpg);
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);

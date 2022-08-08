@@ -1,0 +1,19 @@
+main {
+  padding-top: 10%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1 {
+  font-size: 40px;
+}
+
+.home-text {
+  max-width: 70%;
+  margin: 20px 0;
+  font-size: 26px;
+  text-align: center;
+}
