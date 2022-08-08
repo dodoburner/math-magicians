@@ -13,7 +13,6 @@ export default function CalculatorHook() {
   function updateDataObj(event) {
     const value = event.target.textContent;
     setDataObj((prevDataObj) => calculate(prevDataObj, value));
-    console.log(dataObj);
   }
 
   function updateScreen() {
