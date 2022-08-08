@@ -41,8 +41,7 @@ select {
   padding-right: 10px;
   color: #1F4690;
   text-align: end;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 4px;
   margin-bottom: 6px;
 }
 
