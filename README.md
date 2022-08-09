@@ -1,16 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
+> This is a single page app built with React that has 3 sections; Home, Calculator, and Quotes. The home page welcomes the user, the calculator calculates, and the quotes page displays a math quote fetched from an API.
 
 ## Built With
 
 - HTML, CSS, JavaScript, React, JSX
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://dodoburner.github.io/math-magicians/)
 
 
 ## Getting Started
@@ -30,9 +30,9 @@ To get a local copy up and running follow these simple example steps.
 - Open it in your terminal and run npm install to install all the necessary packages
 - Run npm start to open it in your browser
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Dorian Urem**
 
 - GitHub: [@dodoburner](https://github.com/dodoburner)
 - Twitter: [@DorianUrem](https://twitter.com/DorianUrem)
@@ -53,6 +53,7 @@ Give a ⭐️ if you like this project!
 
 - Thank you Microverse for providing me with this project
 - Hat tip to the official React documentation, Scrimba's free React course and Frontend Masters intro to React for the knowledge 
+- Thank you NickWantsToCode from creating the [math quote api](https://forum.freecodecamp.org/t/created-random-quote-generator-api/163596)
 
 ## 📝 License
 

@@ -1,14 +1,22 @@
 import React from 'react';
-// import Calculator from './components/Calculator';
-import CalculatorHook from './components/CalculatorHooks';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from './components/Home';
+import CalculatorPage from './components/CalculatorPage';
+import Quote from './components/Quote';
 import './styles/App.css';
 
 class App extends React.PureComponent {
   render() {
     return (
-      <div className="App">
-        <CalculatorHook />
-      </div>
+      <Router basename="/math-magicians">
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Calculator" element={<CalculatorPage />} />
+            <Route path="/Quotes" element={<Quote />} />
+          </Routes>
+        </div>
+      </Router>
     );
   }
 }

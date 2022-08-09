@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.header-title {
+  font-size: 70px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+}
+
+li {
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa500;
+}
