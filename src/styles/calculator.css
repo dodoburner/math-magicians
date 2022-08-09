@@ -1,7 +1,3 @@
-.calc-page-container {
-  display: none;
-}
-
 .calc-page-content {
   display: flex;
   justify-content: space-between;
