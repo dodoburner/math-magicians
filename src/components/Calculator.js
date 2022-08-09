@@ -3,7 +3,7 @@ import Row from "./Row";
 import calculate from "../logic/calculate";
 import "../styles/calculator.css";
 
-export default function CalculatorHook() {
+export default function Calculator() {
   const [dataObj, setDataObj] = useState({
     total: null,
     next: null,
