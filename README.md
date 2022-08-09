@@ -53,7 +53,7 @@ Give a ⭐️ if you like this project!
 
 - Thank you Microverse for providing me with this project
 - Hat tip to the official React documentation, Scrimba's free React course and Frontend Masters intro to React for the knowledge 
-- Thank you NickWantsToCode from creating the [math quote api](https://forum.freecodecamp.org/t/created-random-quote-generator-api/163596)
+- Thank you NickWantsToCode for creating the [math quote api](https://forum.freecodecamp.org/t/created-random-quote-generator-api/163596)
 
 ## 📝 License
 
