@@ -7,7 +7,7 @@ const Header = () => (
     <h1 className="header-title">Math Magicians</h1>
     <ul>
       <li>
-        <Link to="/Home">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
         <Link to="/Calculator">Calculator</Link>

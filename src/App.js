@@ -8,12 +8,12 @@ import './styles/App.css';
 class App extends React.PureComponent {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/math-magicians">
         <div className="App">
           <Routes>
-            <Route path="Home" element={<Home />} />
-            <Route path="Calculator" element={<CalculatorPage />} />
-            <Route path="Quotes" element={<Quote />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/Calculator" element={<CalculatorPage />} />
+            <Route path="/Quotes" element={<Quote />} />
           </Routes>
         </div>
       </Router>
