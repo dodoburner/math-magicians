@@ -18,3 +18,12 @@ ul {
 li {
   cursor: pointer;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFA500;
+}
