@@ -7,7 +7,6 @@ const Quote = () => {
     const fetchQuotes = async () => {
       const data = await fetch("https://random-math-quote-api.herokuapp.com/");
       const json = await data.json();
-      console.log(json);
       document.querySelector(".quote").innerHTML = `
         ${json.quote}
         <br>
