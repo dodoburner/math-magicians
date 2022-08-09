@@ -30,9 +30,9 @@ To get a local copy up and running follow these simple example steps.
 - Open it in your terminal and run npm install to install all the necessary packages
 - Run npm start to open it in your browser
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Dorian Urem**
 
 - GitHub: [@dodoburner](https://github.com/dodoburner)
 - Twitter: [@DorianUrem](https://twitter.com/DorianUrem)
