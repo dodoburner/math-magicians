@@ -1,6 +1,7 @@
 html,
 body {
-  height: 100%;
+  height: 100vh;
+  overflow: auto;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
   background-image: url(../images/math-bg.jpg);
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   color: white;
+  padding-bottom: 50px;
 }
 
 * {
@@ -22,4 +24,44 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+@media only screen and (max-width: 750px) {
+  .header-title {
+    font-size: 36px;
+  }
+
+  ul {
+    flex-direction: column;
+    font-size: 20px;
+    gap: 5px;
+  }
+
+  main h1 {
+    font-size: 30px;
+  }
+
+  .home-text {
+    font-size: 24px;
+  }
+
+  .calc-page-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .calc-page-content h1 {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  #calculator {
+    max-width: 400px;
+    margin-top: 30px;
+  }
+
+  .quote {
+    font-size: 28px;
+  }
 }
