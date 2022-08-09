@@ -16,7 +16,7 @@
 }
 
 .screen {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   height: 120px;
   display: flex;
   align-items: flex-end;
@@ -43,7 +43,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #CECECE;
+  background-color: #cecece;
   color: rgb(104, 101, 101);
   cursor: pointer;
   border: none;
@@ -57,7 +57,7 @@
 }
 
 .row .button:last-child {
-  background-color: #FFA500;
+  background-color: #ffa500;
 }
 
 .row .button:last-child:active {
