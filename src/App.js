@@ -8,7 +8,7 @@ import './styles/App.css';
 class App extends React.PureComponent {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Routes>
             <Route path="Home" element={<Home />} />
