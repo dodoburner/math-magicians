@@ -8,7 +8,7 @@ import './styles/App.css';
 class App extends React.PureComponent {
   render() {
     return (
-      <Router basename="/math-magicians">
+      <Router>
         <div className="App">
           <Routes>
             <Route path="/" element={<Home />} />
