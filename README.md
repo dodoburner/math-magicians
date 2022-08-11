@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://dodoburner.github.io/math-magicians/)
+[Live Demo Link](https://math-magicians-mm.netlify.app/)
 
 
 ## Getting Started
